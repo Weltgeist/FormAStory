@@ -16,7 +16,7 @@
       <hr>
       <!--Add your form below:-->
       <form action="/story.html" method="GET"><!--action="./story.html" ; alternative -->
-        <section id="choices">
+        <section id="text_choices">
           <label for="animal-1">Animal:</label>
           <input id="animal-1" type="text" name="animal-1" placeholder="Be Creative!" required >
           <br>
@@ -31,6 +31,11 @@
           <br>
           <label for="verb-1">Verb (ends in -ing):</label>
           <input id="verb-1" type="text" name="verb-1" placeholder="Be Verbose!" required >
+          <br>
+        </section>
+        <section id="other_choices">
+          <label for="num-1">Number:</label>
+          <input id="num-1" type="number" name="num-1" required min="0" max="99" step="1">
           <br>
         </section>
         <section id="submit">
