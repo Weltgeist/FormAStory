@@ -17,6 +17,7 @@
       <!--Add your form below:-->
       <form action="/story.html" method="GET"><!--action="./story.html" ; alternative -->
         <section id="text_choices">
+          <h2>Please enter required text(Only letters). =)</h2>
           <label for="animal-1">Animal:</label>
           <input id="animal-1" type="text" name="animal-1" placeholder="Be Creative!" required pattern="[a-zA-Z]+">
           <br>
@@ -34,7 +35,8 @@
           <br>
         </section>
         <section id="other_choices">
-          <label for="num-1">Number:</label>
+          <h2>Please make these additional choices. =)</h2>
+          <label for="num-1">Number(0-99):</label>
           <input id="num-1" type="number" name="num-1" required min="0" max="99" step="1">
           <br>
           <span>Yes or No:</span>
